@@ -21,7 +21,7 @@ exports.serializeInline = function (elem) {
   else if (name === 'omg')
     serializations.push({ type: Types.omg, src: elem.getAttribute('src') })
   else if (name === 'img')
-    serializations.push({ type: Types.omg, src: elem.getAttribute('src') })
+    serializations.push({ type: Types.img, src: elem.getAttribute('src') })
   
 
 
